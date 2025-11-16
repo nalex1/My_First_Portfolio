@@ -3,33 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tweets Page</title>
 </head>
 <body>
-    <header> 
-        <ul>
-            <li><a href="index.html" target="_blank">Home</a></li>
-            <li><a href="tweets.html" target="_blank">Tweets</a></li>
-        </ul>
+
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="tweets.html" target="_blank">Tweets</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <!-- MAIN CONTENT -->
     <main>
-     
-    
-        <a href="index.html" target="_blank">   </a>
-    <p>hello world</p>
-    <article> contains the content of your webpage: texts, links, images, tweets, … This is the part of index.html and tweets.html that you have already written.
-        <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">
-            hello my follwers! This is my very first tweet from my new account.
-        </p>
-         alex (@alex)
-        <a href="https://x.com/home" target="_blank">very tweet</a>
-    </blockquote>
-<aside> contains a single paragraph, just reading for now “placeholder to add comment thread later”.
-    </article>
+
+        <p>Hello world</p>
+
+        <!-- ARTICLE -->
+        <article>
+            <h2>Tweet Section</h2>
+            <p>This article contains the content of the webpage: text, links, images, and tweets.</p>
+
+            <!-- Embedded Tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">
+                    hello my followers! This is my very first tweet from my new account.
+                </p>
+                — alex (@alex)
+                <a href="https://x.com/home" target="_blank">View Tweet</a>
+            </blockquote>
+
+            <!-- Required script for tweet rendering -->
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
+
+        <!-- ASIDE -->
+        <aside>
+            <p>Placeholder to add comment thread later.</p>
+        </aside>
+
     </main>
+
+    <!-- FOOTER -->
     <footer>
-        <p> Alex NKURUNZIZA <a href="https://www.facebook.com/profile.php?id=100008432209498" target="_blank"> facebook </a> yes visit a page</p>
+        <p>
+            Alex NKURUNZIZA —
+            <a href="https://www.facebook.com/profile.php?id=100008432209498" target="_blank">Facebook</a>  
+            (Visit the page)
+        </p>
     </footer>
+
 </body>
 </html>
